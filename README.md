@@ -1,6 +1,6 @@
 # Diffraction Simulation
 
-This project simulates diffraction through an aperture using scipy's dblquad and Monte Carlo. Results are visualised using matplotlib, by plotting position against intensity for 1d, and including an intensity colour gradient for 2d.
+This project simulates diffraction through an aperture using scipy's dblquad and Monte Carlo. Results are visualised using matplotlib, by plotting position against intensity for 1d, and including an intensity colour gradient for 2d. A report for this project is included.
 
 ## Requirements
 - Python 3.x
@@ -28,6 +28,7 @@ Here is an example simulation of one lunar year for the Moon and probe:
 - -Can select between dblquad and Monte-Carlo for a 2d circular aperture
 - Interactive menu for the above
 - Automatically records time taken for each simulation
+- Written report analyisng results
 
 ## Author
 James Barnes – Physics Student, University of Bristol
