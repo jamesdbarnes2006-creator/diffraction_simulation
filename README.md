@@ -11,21 +11,23 @@ This project simulates diffraction through an aperture using scipy's dblquad and
 - time
 
 ## How to use
-1. Run `moon_probe.py`.
-2. Choose a timescale (long ~1 lunar year or short ~3-4 days).
-3. The script will plot Moon and probe trajectories
-4. Automatically checks energy conservation.
+1. Run `diffraction_coursework_ii24784.py`.
+2. Choose between Fresnel (0.005m) and Fraunhofer (0.05m)
+3. Select one of 4 options, with varying dimensions, aperture shapes, and simulation methods
+4. The script will plot diffraction patterns
 
 ## Example Output
 
 Here is an example simulation of one lunar year for the Moon and probe:
 
-![Moon and Probe Trajectories](lunar_year_figure.png)
+![Moon and Probe Trajectories](diffraction.png)
 
 ## Features
-- 2D Plots of Moon and probe orbits 
-- Interactive menu for timescale 
-- Energy conservation check
+- 1D and 2D Plots of Fresnel and Fraunhofer diffraction patterns
+- Can select between circular and square aperture shapes
+- -Can select between dblquad and Monte-Carlo for a 2d circular aperture
+- Interactive menu for the above
+- Automatically records time taken for each simulation
 
 ## Author
 James Barnes – Physics Student, University of Bristol
